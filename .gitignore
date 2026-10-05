@@ -1,0 +1,40 @@
+# ── Gradle ───────────────────────────────────────────────
+.gradle/
+build/
+
+# ── Kotlin ───────────────────────────────────────────────
+.kotlin/
+
+# ── Android / IntelliJ IDEA ──────────────────────────────
+*.iml
+.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.keystore
+*.jks
+
+# ── Archivos locales de configuración (no compartir) ─────
+local.properties
+
+# ── Logs y temporales ────────────────────────────────────
+*.log
+*.hprof
+*.tmp
+~$*
+
+# ── Sistema / editor ─────────────────────────────────────
+Thumbs.db
+.DS_Store
+*.swp
+*~

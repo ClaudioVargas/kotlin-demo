@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ============ General ============ -->
+    <string name="app_name">Android Demo Kotlin</string>
+    <string name="app_description">Ejemplos básicos de funcionalidades de Android</string>
+
+    <!-- ============ Lista principal ============ -->
+    <string name="ui_demo_title">1. UI Básica</string>
+    <string name="ui_demo_description">Widgets: EditText, Button, TextView, Snackbar y Toast.</string>
+    <string name="counter_title">2. ViewModel + LiveData</string>
+    <string name="counter_description">Contador que sobrevive a la rotación de pantalla.</string>
+    <string name="coroutines_title">3. Coroutines</string>
+    <string name="coroutines_description">Tarea en segundo plano con barra de progreso.</string>
+    <string name="prefs_title">4. SharedPreferences</string>
+    <string name="prefs_description">Guardar y leer datos locales tipo clave-valor.</string>
+    <string name="network_title">5. Red (Retrofit)</string>
+    <string name="network_description">Consume la API pública JSONPlaceholder.</string>
+    <string name="camera_title">6. Cámara</string>
+    <string name="camera_description">Tomar una foto con la cámara del dispositivo.</string>
+    <string name="sensor_title">7. Acelerómetro</string>
+    <string name="sensor_description">Leer los ejes X, Y, Z del sensor en tiempo real.</string>
+    <string name="notification_title">8. Notificaciones</string>
+    <string name="notification_description">Crear un canal y enviar una notificación.</string>
+    <string name="permissions_title">9. Permisos runtime</string>
+    <string name="permissions_description">Solicitar permisos y verificar cada resultado.</string>
+
+    <!-- ============ Demo 1: UI ============ -->
+    <string name="hint_name">Escribe tu nombre</string>
+    <string name="button_show">Mostrar saludo</string>
+    <string name="button_reset">Reiniciar</string>
+    <string name="greeting">¡Hola, %1$s! 👋</string>
+    <string name="greeting_default">Aquí aparecerá tu saludo…</string>
+    <string name="required_field">El campo es obligatorio</string>
+    <string name="snackbar_greeting">Snackbar: ¡Hola %1$s!</string>
+    <string name="toast_greeting">Toast: ¡Hola %1$s!</string>
+    <string name="undo">Deshacer</string>
+
+    <!-- ============ Demo 2: Contador ============ -->
+    <string name="button_plus">+1</string>
+    <string name="button_minus">-1</string>
+    <string name="button_reset_counter">Reiniciar contador</string>
+    <string name="counter_note">Gira la pantalla y observa que el valor NO se reinicia: vive en el ViewModel.</string>
+
+    <!-- ============ Demo 3: Coroutines ============ -->
+    <string name="button_start_task">Ejecutar tarea</string>
+    <string name="doing_task">Ejecutando tarea en segundo plano…</string>
+    <string name="task_finished">¡Tarea finalizada!</string>
+    <string name="task_result">Tarea completada correctamente ✔</string>
+
+    <!-- ============ Demo 4: SharedPreferences ============ -->
+    <string name="hint_value">Dato a guardar</string>
+    <string name="button_save">Guardar</string>
+    <string name="button_load">Cargar</string>
+    <string name="button_delete">Borrar</string>
+    <string name="saved_value">Guardado: %1$s</string>
+    <string name="loaded_value">Cargado: %1$s</string>
+    <string name="no_value">Aún no hay datos guardados.</string>
+
+    <!-- ============ Demo 5: Red ============ -->
+    <string name="button_retry">Reintentar</string>
+    <string name="error_fetching">Error de red: %1$s</string>
+
+    <!-- ============ Demo 6: Cámara ============ -->
+    <string name="button_take_photo">Tomar foto</string>
+    <string name="camera_photo_hint">La foto aparecerá aquí</string>
+    <string name="camera_permission_denied">Permiso de cámara denegado</string>
+    <string name="camera_no_photo">No se recibió ninguna foto</string>
+    <string name="camera_cancelled">Captura cancelada</string>
+    <string name="camera_not_available">No se encontró cámara en este dispositivo</string>
+
+    <!-- ============ Demo 7: Sensor ============ -->
+    <string name="sensor_status">Mueve el dispositivo para ver los valores del acelerómetro.</string>
+    <string name="sensor_not_available">Este dispositivo no tiene acelerómetro.</string>
+    <string name="sensor_value">Eje %1$s: %2$s</string>
+
+    <!-- ============ Demo 8: Notificaciones ============ -->
+    <string name="button_send_notification">Enviar notificación</string>
+    <string name="notification_channel_name">Notificaciones de demo</string>
+    <string name="notification_channel_description">Canal usado por la app de demostración.</string>
+    <string name="notification_title_text">¡Hola desde Android Demo! 📢</string>
+    <string name="notification_text">Tocaste el botón de notificaciones.</string>
+    <string name="notification_permission_denied">Permiso de notificaciones denegado</string>
+    <string name="notification_sent">¡Notificación enviada!</string>
+    <string name="notification_hint">En Android 13+ se pedirá permiso. Revisa la bandeja de notificaciones.</string>
+
+    <!-- ============ Demo 9: Permisos ============ -->
+    <string name="button_request_permissions">Solicitar permisos</string>
+    <string name="permissions_hint">Se solicitarán Cámara, Ubicación y Audio. El resultado se muestra abajo.</string>
+</resources>
